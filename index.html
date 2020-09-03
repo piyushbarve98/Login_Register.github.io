@@ -17,16 +17,21 @@
             
             .container{
                     font-size: 165%;
-                    width: 75%;
+                    width: 80%;
                 }
+            }
+            h3{
+                padding: 10px 40px;
             }
             @media only screen and (max-width:400px){
             
             
             body{
-                height: 110vh;
+                height: 135vh;
             }
-            
+            h3{
+                padding: 10px 40px;
+            }
             .container{
                 font-size: 150%;
                 width: 70%;
@@ -47,19 +52,19 @@
         <span class='heading'>First Name </span> <input type='text' id='fname1'  placeholder="Enter Firstname"  required>
         <label id='fname'  style='display: none;'></label><br><br>
 
-        Last Name: <input type='text' id='lname1'   placeholder="Enter lastname"  required>
+        <span class='heading'>Last Name </span> <input type='text' id='lname1'   placeholder="Enter lastname"  required>
         <label id='lname' style='display: none;'></label><br><br>
 
-        E-Mail: <input type='email' id='email1'  placeholder="Enter E-Mail"  required>
+        <span class='heading'>Email </span><input type='email' id='email1'  placeholder="Enter E-Mail"  required>
         <label id='email' style='display: none;'></label><br><br>
 
-        Phone No.: <input type='tel' pattern="[0-9]{10}" id='phone1' placeholder="Enter Phone No."  required>
+        <span class='heading'> Phone No. </span><input type='tel' pattern="[0-9]{10}" id='phone1' placeholder="Enter Phone No."  required>
         <label id='phone' style='display: none;'></label><br><br>
 
-        Username: <input type='text' id='uname1'  placeholder="Enter Username"  required>
+        <span class='heading'>Username</span><input type='text' id='uname1'  placeholder="Enter Username"  required>
         <label id='uname' style='display: none;'></label><br><br>
 
-        Password: <input type='password' id='pass1' placeholder="Enter Password"  required>
+        <span class='heading'>Password</span><input type='password' id='pass1' placeholder="Enter Password"  required>
         <label id='passp' style='display: none;'></label><br><br>
 
         <input  class ='submit1' type="submit">
