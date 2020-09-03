@@ -27,13 +27,13 @@ function validate(){
         return false;
     }
     else if(fname.value.trim()==''){
-        document.getElementById('fname1').style.display='block';
-        document.getElementById('fname1').innerHTML='*First name is Empty*';
+        document.getElementById('fname').style.display='block';
+        document.getElementById('fname').innerHTML='*First name is Empty*';
         return false;
     }
     else if(lname.value.trim()==''){
-        document.getElementById('lname1').style.display='block';
-        document.getElementById('lname1').innerHTML='*Last name is Empty*';
+        document.getElementById('lname').style.display='block';
+        document.getElementById('lname').innerHTML='*Last name is Empty*';
         return false;
     }
     
