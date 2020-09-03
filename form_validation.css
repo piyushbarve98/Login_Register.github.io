@@ -2,10 +2,13 @@
 
 body{
     display: flex;
-    width: 100%;
     height: 100vh;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
     justify-content: center;
     align-items: center;
+    background-size: cover;
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 
@@ -15,12 +18,11 @@ body{
     font-family: 'Quicksand', sans-serif;
     font-size: 150%;
     width: 35%;
-    height: 80vh;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4vh;
+    padding: 1.5em;
     background: #2c3e50;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -32,7 +34,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:-2em;
+    margin-top:0;
     margin-bottom: 1.5em;
     
 }
@@ -78,7 +80,7 @@ input{
         font-size: 70%;
     }
     .container{
-        height: 60vh;
+    
         width: 60%;
     }
 }
@@ -88,7 +90,6 @@ input{
         font-size: 65%;
     }
     .container{
-        height: 70vh;
         width: 65%;
     }
 }
