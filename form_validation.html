@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="form_validation.css" rel="stylesheet">
+        <title>form validation</title>
+        <script src="form_validation.js"></script>
+    </head>
+
+<body>
+
+    <div class='container'>
+    <form  onsubmit='return validate()' action='#'>
+        <div class='img1'><img class='tanjiro' src='tanjiro (2).jpg'></div>
+        Username: <input type='text' id='user' placeholder="Enter Username"  required>
+        <label id='userp' style='display: none;'></label><br><br>
+        Password: <input type='password' id='pass' placeholder="Enter Password"  required>
+        <label id='passp' style='display: none;'></label><br><br>
+        <input  class ='submit1' type="Login">
+
+    </form>
+    </div>
+</body>
+</html>

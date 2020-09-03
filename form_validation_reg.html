@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="form_validation.css" rel="stylesheet">
+        <title>form validation</title>
+        
+        <style>
+            body{
+                height: 135vh;
+            }
+            .container{
+                height: 120vh;
+            }
+            @media only screen and (max-width:500px){
+            html{
+                 font-size: 70%;
+                 }
+                
+            body{
+                height: 115vh;
+            }
+            
+            .container{
+                    height: 110vh;
+                    width: 70%;
+                }
+            }
+            @media only screen and (max-width:400px){
+            html{
+                font-size: 60%;
+            }
+            body{
+                height: 120vh;
+            }
+            
+            .container{
+                height: 105vh;
+                width: 65%;
+                }
+            }
+
+        </style>
+    </head>
+
+<body>
+
+    <div class='container'>
+    <form  onsubmit='return validate()' action='form_validation.html'>
+        <div class='img1'><img class='tanjiro' src='tanjiro (2).jpg'></div>
+
+        First Name: <input type='text' id='fname1'  placeholder="Enter Firstname"  required>
+        <label id='fname'  style='display: none;'></label><br><br>
+
+        Last Name: <input type='text' id='lname1'   placeholder="Enter lastname"  required>
+        <label id='lname' style='display: none;'></label><br><br>
+
+        E-Mail: <input type='email' id='email1'  placeholder="Enter E-Mail"  required>
+        <label id='email' style='display: none;'></label><br><br>
+
+        Phone No.: <input type='tel' pattern="[0-9]{10}" id='phone1' placeholder="Enter Phone No."  required>
+        <label id='phone' style='display: none;'></label><br><br>
+
+        Username: <input type='text' id='uname1'  placeholder="Enter Username"  required>
+        <label id='uname' style='display: none;'></label><br><br>
+
+        Password: <input type='password' id='pass1' placeholder="Enter Password"  required>
+        <label id='passp' style='display: none;'></label><br><br>
+
+        <input  class ='submit1' type="submit">
+
+    </form>
+    </div>
+    <script src="form_validation_reg.js"></script>
+</body>
+</html>
