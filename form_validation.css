@@ -2,7 +2,7 @@
 
 body{
     display: flex;
-    height: 120vh;
+    height: 140vh;
     width: 100%;
     padding-top: 2em;
     padding-bottom: 2em;
@@ -45,7 +45,18 @@ body{
 
     
 }
-
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    
+    padding: 20px 80px;
+    border-radius: 50px;
+    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+    color: white;
+}
 input{
     width: 90%;
     font-size: 0.8em;
@@ -67,6 +78,13 @@ input{
     background-color: #74EBD5;
     background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
     font-size: 0.9em;
+}
+span{
+    padding:8px;
+    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
 }
 .submit1:hover{
     background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
