@@ -60,7 +60,7 @@ h3{
 input{
     width: 90%;
     font-size: 0.8em;
-    padding: 0.5em;
+    padding: 0.5em 1em;
     margin-top: 0.1em;
     font-family: 'Quicksand', sans-serif;
     border: none;
