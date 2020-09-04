@@ -1,11 +1,11 @@
 function myfunc(){
     document.getElementById('uname').style.display='none';
     document.getElementById('passp').style.display='none';
-    document.getElementById('passp').style.display='none';
-    document.getElementById('passp').style.display='none';
+    document.getElementById('fname').style.display='none';
+    document.getElementById('lname').style.display='none';
 }
 
-setInterval(myfunc,10000);
+setInterval(myfunc,8000);
 function validate(){
    
     myfunc();

@@ -92,10 +92,10 @@ span{
 }
 
 #userp,#passp,#uname,#phone,#email,#fname,#lname{
-    font-size: 16px;
+    font-size: 13px;
     margin-top: 2px;
     margin-bottom: -50px;
-    color:rgba(168, 5, 18, 0.932);
+    color:rgba(216, 13, 30, 0.932);
 }
 
 @media only screen and (max-width:500px){

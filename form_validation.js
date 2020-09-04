@@ -1,4 +1,13 @@
+
+function myfunc(){
+    document.getElementById('userp').style.display='none';
+    document.getElementById('passp').style.display='none';
+    
+}
+
 function validate(){
+
+    setInterval(myfunc,8000);
     var username= document.getElementById('user');
     var password= document.getElementById('pass');
     
